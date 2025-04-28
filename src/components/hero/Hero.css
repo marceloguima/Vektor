@@ -1,0 +1,21 @@
+
+
+.hero{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 40vh 40vh;
+    gap: 1.6rem;
+}
+
+.carolsel{
+    background: #fae3e3;
+    grid-row: 1 / 3;
+}
+
+.desc{
+    background: #ded0f8;
+}
+
+.cartao-fidelidade{
+    background: #e9f8d0;
+}

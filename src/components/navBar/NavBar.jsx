@@ -1,8 +1,10 @@
 import React from 'react'
+import './NavBar.css'
 
 const NavBar = () => {
   return (
   <nav>
+    <div className="logo">logo</div>
     <ul>
         <li>Início</li>
         <li>Em alta</li>

@@ -1,0 +1,21 @@
+nav{
+    border-bottom: 1px solid #bdbcbc;
+    display: flex;
+}
+
+.logo{
+    width: 400px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0 20px;
+    height: 60px;
+    width: 60%;
+}
+
+nav ul li{
+}
