@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import Promocoes from "./routes/Promocoes.jsx";
 import Calcados from "./routes/Calcados.jsx";
 import EmAlta from "./routes/EmAlta.jsx";
+import PgCarrinho from "./routes/PgCarrinho.jsx";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
     {
         path:"/calcados",
         element: <Calcados />
+    },
+    {
+        path: "/carrinho",
+        element: <PgCarrinho />,
     }
 ]);
 
