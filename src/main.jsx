@@ -3,7 +3,8 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import Promocoes from "./routes/Promocoes.jsx";
-import MaisComprados from "./routes/MaisComprados.jsx";
+import Calcados from "./routes/Calcados.jsx";
+import EmAlta from "./routes/EmAlta.jsx";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -16,8 +17,12 @@ const router = createBrowserRouter([
         element: <Promocoes />,
     },
     {
-        path: "/mais-comprados",
-        element: <MaisComprados />,
+        path: "/em-alta",
+        element: <EmAlta />,
+    },
+    {
+        path:"/calcados",
+        element: <Calcados />
     }
 ]);
 
