@@ -30,15 +30,21 @@
     padding: 1rem 0;
 }
 
-.desc{
-    background: #eaeff8;
+.cartao-produto{
+    background: #f2f5fc;
     display: flex;
     padding: 10px;
   
 }
 
-.desc img{
+.cartao-produto img{
     width: 50%;
+   
+}
+
+.cartao-fidelidade img{
+    height: 100%;
+    
    
 }
 
@@ -49,11 +55,10 @@
     gap: 10px;
 }
 
-.text-descr button{
-    margin-top: 10px;
-}
 
 .cartao-fidelidade{
-    background: #e9f8d0;
+    background: #f1f3ed;
+    display: flex;
+    padding: 10px;
    
 }

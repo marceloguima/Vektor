@@ -5,7 +5,7 @@ import Carrinho from "../carrinho/Carrinho.jsx";
 const NavBar = () => {
     return (
         <nav>
-            <div className="logo">logo</div>
+         <p className="logo">vektor</p>
 
             <Link to="/promocoes">Promoções</Link>
             <Link to="/em-alta">Em alta</Link>
